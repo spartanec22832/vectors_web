@@ -1,24 +1,29 @@
-# README
+## Running in development mode
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Dependencies:
+[![Ruby](https://img.shields.io/badge/Ruby-3.3.7-red?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
 
-Things you may want to cover:
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-* Ruby version
+[![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=node.js&logoColor=white)](https://nodejs.org/)
 
-* System dependencies
+Fill credentials in `.env` file as
+```
+VECTORS_APP_DATABASE_USERNAME = <your_postgres_username>
+VECTORS_APP_DATABASE_PASSWORD = <your_postgres_password>
+```
 
-* Configuration
+Install dependencies:
+```bash
+bundle install
+npm install
+```
+Run the project with:
 
-* Database creation
+```bash
+foreman start -f Procfile.dev
+```
 
-* Database initialization
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Visit-blue?logo=github)](https://github.com/spartanec22832/vectors_web)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...git
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://mit-license.org/)
