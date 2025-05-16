@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "private": true,
+  "devDependencies": {
+    "parcel": "^2.15.1",
+    "tailwindcss": "^4.1.7"
+  },
+  "scripts": {
+  "build":    "parcel build app/javascript/application.js --dist-dir app/assets/builds/",
+  "build:css":"tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify",
+  "watch":    "parcel watch app/javascript/application.js --dist-dir app/assets/builds",
+  "watch:css":"npx tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --watch"
+  },
+
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/stimulus-webpack-helpers": "^1.0.1",
+    "@hotwired/turbo-rails": "^8.0.13",
+    "@tailwindcss/cli": "^4.1.7"
+  }
+}
