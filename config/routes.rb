@@ -14,5 +14,16 @@ Rails.application.routes.draw do
 
   post "vectors/calculate", to: "vectors#calculate", as: :vector_calculate
 
+  post  "registration", to: "pages#registration", as: :registration
+  post  "login",        to: "pages#login",        as: :login
+  delete "logout",      to: "pages#logout",       as: :logout
+
+  post "reset_password", to: "pages#reset_password",        as: :reset_password
+
+
+  get "history", to: "pages#history", as: :history_page
+  get "support", to: "pages#support", as: :support_page
+  get "profile", to: "pages#profile", as: :profile_page
+
 
 end
