@@ -18,6 +18,15 @@ Install dependencies:
 bundle install
 npm install
 ```
+
+Config database migrations:
+
+```bash
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
 Run the project with:
 
 ```bash

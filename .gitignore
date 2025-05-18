@@ -38,5 +38,5 @@
 
 /node_modules
 .env
-.idea
+.idea/
 .parcel-cache
