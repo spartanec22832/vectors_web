@@ -14,11 +14,14 @@ Rails.application.routes.draw do
 
   post "vectors/calculate", to: "vectors#calculate", as: :vector_calculate
 
-  post  "registration", to: "pages#registration", as: :registration
-  post  "login",        to: "pages#login",        as: :login
-  delete "logout",      to: "pages#logout",       as: :logout
+  post "registration", to: "registrations#create", as: :registration
 
-  post "reset_password", to: "pages#reset_password",        as: :reset_password
+  post "login",        to: "sessions#create",        as: :login
+  delete "logout",      to: "sessions#delete",       as: :logout
+
+  # роутинга для пароля пока нет, сложно
+  # заглушка для фронта
+  post "password/reset",    to: "password#create",      as: :password
 
 
   get "history", to: "pages#history", as: :history_page

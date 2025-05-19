@@ -1,4 +1,4 @@
-7211
+7219
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\ec\e779baa737934a133918765245997426 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\c6\b6b3d253596936133918785047694423 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\a6\465583bade3aa9133918785046328590 0
@@ -14,7 +14,7 @@
 64C:\ruby_labs\vectors_app\node_modules\@ampproject\remapping\dist133918877692234535 1
 51C:\ruby_labs\vectors_app\node_modules\@parcel\utils133918873476193829 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\73\7eaf57b012e195133918791394307688 0
-59C:\ruby_labs\vectors_app\tmp\cache\bootsnap\load-path-cache133920524580408002 0
+59C:\ruby_labs\vectors_app\tmp\cache\bootsnap\load-path-cache133921499982904710 0
 62C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq133918785056996977 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\ed\c6bd85e592fa9f133918765233272997 0
 76C:\ruby_labs\vectors_app\node_modules\mkdirp\dist\mjs\mkdirp-manual.d.ts.map133918879335275069 0
@@ -37,13 +37,18 @@
 40C:\ruby_labs\vectors_app\public\icon.png133918764532617342 0
 65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-yaml\9e133919095816241882 1
 64C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\unpack.js.map133918877685610000 0
+68C:\ruby_labs\vectors_app\node_modules\@parcel\workers\src\backend.js133918873444370000 0
+82C:\ruby_labs\vectors_app\node_modules\@swc\helpers\esm\_class_private_field_set.js133918873449120000 0
+44C:\ruby_labs\vectors_app\tmp\pids\server.pid133921476125218072 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\e4\ea89d90c2d2de2133918791391071606 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\38\d73c702acb078e133918765226907122 0
 53C:\ruby_labs\vectors_app\node_modules\mkdirp\dist\mjs133918879335526519 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\a2\8c5566b325c6c7133918791404084474 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\ec\6fa4730ddd1d61133918791398936986 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\cf\f16df3ac4ca358133918765279169109 0
 29C:\ruby_labs\vectors_app\.env133919115020027274 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\0d\2e73798c13a3f9133918791382747784 0
-30C:\ruby_labs\vectors_app\.idea133920565458916639 1
+30C:\ruby_labs\vectors_app\.idea133921514539604910 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\28\1764835345f223133919078829477597 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\11\51ef790bb9a9f7133918765252668775 0
 55C:\ruby_labs\vectors_app\node_modules\@tailwindcss\node133918879051534254 1
@@ -130,6 +135,17 @@
 73C:\ruby_labs\vectors_app\node_modules\@parcel\core\test\fixtures\main-mjs133918873485348470 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\74\b22d624a85a67c133918765300125399 0
 65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\a7133919899255187747 1
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\4f\97dfc5bd46c0af133918765234925510 0
+65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2d133918791403924479 1
+54C:\ruby_labs\vectors_app\node_modules\lmdb\src\txn.cpp133918879335860445 0
+71C:\ruby_labs\vectors_app\config\initializers\content_security_policy.rb133918764504613259 0
+67C:\ruby_labs\vectors_app\node_modules\@swc\helpers\src\_dispose.mjs133918873449120000 0
+58C:\ruby_labs\vectors_app\node_modules\yallist\package.json133918877687480000 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\62\4796b584c92b63133918785053690905 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b9\af92300163b147133918791036432590 0
+75C:\ruby_labs\vectors_app\tmp\cache\bootsnap\load-path-cache.28116.39836.tmp133920605268298221 0
+61C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\pax.js.map133918877685610000 0
+80C:\ruby_labs\vectors_app\node_modules\enhanced-resolve\lib\ImportsFieldPlugin.js133918877682730000 0
 81C:\ruby_labs\vectors_app\node_modules\@parcel\optimizer-html\lib\HTMLOptimizer.js133918873431600000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\50\c090b9e35ae221133918765344432738 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\8b\2383b631ccc5cc133918765243420023 0
@@ -159,7 +175,7 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\f5\3cd072bc6904a6133918765237913596 0
 28C:\ruby_labs\vectors_app\bin133918765750470026 1
 67C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\list.js.map133918877685610000 0
-31C:\ruby_labs\vectors_app\config133920547884172168 1
+31C:\ruby_labs\vectors_app\config133921501569984385 1
 64C:\ruby_labs\vectors_app\node_modules\@swc\helpers\src\index.mjs133918873449120000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\f3\5d4853a09ef8e0133918765275666114 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\65\75e41fc2b07384133918765222439535 0
@@ -208,7 +224,7 @@
 35C:\ruby_labs\vectors_app\Dockerfile133919649851801475 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\a2\ab7004d52435f2133918791394042507 0
 82C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\strip-absolute-path.js.map133918877685610000 0
-37C:\ruby_labs\vectors_app\Gemfile.lock133920446870550945 0
+37C:\ruby_labs\vectors_app\Gemfile.lock133921423435550811 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\0b\d12a2d72324fac133918791413470095 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\14\659f021d3e5fcf133918765243670328 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\27\b77118ca580d5d133918765232524308 0
@@ -294,21 +310,18 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\70\534bf03b96306e133918765221082482 0
 33C:\ruby_labs\vectors_app\Rakefile133918970134425842 0
 65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\67133918791030930580 1
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\eb\ac3422d3755c9e133918765237447313 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\15\65501b09b98c45133918765252036016 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\74\462affc2b97ce4133918791391616790 0
 65C:\ruby_labs\vectors_app\node_modules\@parcel\events\lib\types.js133918873427060000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\65\ba3c43f1de210e133919095816101892 0
 67C:\ruby_labs\vectors_app\node_modules\enhanced-resolve\package.json133918877682730000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\a1\9fd822159bbac9133918765289565913 0
 82C:\ruby_labs\vectors_app\node_modules\@parcel\reporter-dev-server\src\HMRServer.js133918873428970000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-yaml\9e\f89dae34dcc49a133919095816241882 0
+65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\74133919632903355963 1
+69C:\ruby_labs\vectors_app\node_modules\minizlib\dist\commonjs\index.js133918877687050000 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\eb\b02ea342fbca03133918765224476035 0
 94C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-babel\node_modules\.bin\browserslist133918879051261584 0
 52C:\ruby_labs\vectors_app\node_modules\mri\index.d.ts133918877682660000 0
 32C:\ruby_labs\vectors_app\storage133918764533026821 1
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\eb\b02ea342fbca03133918765224476035 0
-65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\74133919632903355963 1
-69C:\ruby_labs\vectors_app\node_modules\minizlib\dist\commonjs\index.js133918877687050000 0
 79C:\ruby_labs\vectors_app\node_modules\@swc\helpers\_\_object_without_properties133918873484084741 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\c7\6f165fa7238fc6133918765286684316 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\fe\7f8174b632632d133918765268779110 0
@@ -362,7 +375,7 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\65\0b7993ae9de448133918765337865065 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\eb\dbd4bcfb065e81133920480420528520 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\8a\1f81518654e477133918765337474457 0
-33C:\ruby_labs\vectors_app\tmp\pids133920565871325902 1
+33C:\ruby_labs\vectors_app\tmp\pids133921476125208082 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\7e\cec2734fe04840133918765254923321 0
 40C:\ruby_labs\vectors_app\tmp\restart.txt133918791051549379 0
 110C:\ruby_labs\vectors_app\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\README.md133918879335042842 0
@@ -388,7 +401,7 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\4b\e2bf078a40df5e133918791387644886 0
 83C:\ruby_labs\vectors_app\node_modules\@swc\helpers\cjs\_class_private_field_get.cjs133918873449120000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b6\9398e7723d0185133918765345725008 0
-43C:\ruby_labs\vectors_app\tmp\cache\bootsnap133920524580417977 1
+43C:\ruby_labs\vectors_app\tmp\cache\bootsnap133921499982919754 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\43\32096ef695ce96133918765348204536 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b7\33cb4e9726755c133918765250064244 0
 65C:\ruby_labs\vectors_app\node_modules\tapable\lib\SyncLoopHook.js133918877682760000 0
@@ -649,16 +662,13 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\c1\129c44589bccd2133918791418550064 0
 71C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\winchars.js.map133918877685610000 0
 65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2c133919087245790763 1
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\4f\97dfc5bd46c0af133918765234925510 0
-65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2d133918791403924479 1
-54C:\ruby_labs\vectors_app\node_modules\lmdb\src\txn.cpp133918879335860445 0
 61C:\ruby_labs\vectors_app\node_modules\json5\dist\index.min.js133918879334987362 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\50\4cda84c0f1249f133918765270936644 0
 98C:\ruby_labs\vectors_app\node_modules\@swc\helpers\_\_class_static_private_method_get\package.json133918873449120000 0
 69C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\regions\TC.js133918873451800000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\ce\3c4f2d3185f094133918765293935268 0
 65C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\parse.d.ts.map133918877685610000 0
-65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2f133920549196601806 1
+65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2f133921501582333199 1
 105C:\ruby_labs\vectors_app\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one\package.json133918873423710000 0
 65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\5b133918785055891828 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\66\90d1b6109c4da1133918765353806224 0
@@ -912,7 +922,7 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\a0\d10f3d180e4461133918791051219407 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\d7\0f19dc9bd1890e133918910415451680 0
 68C:\ruby_labs\vectors_app\node_modules\node-addon-api\tools\README.md133918873453780000 0
-65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\71133920552407626413 1
+65C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\71133921508884733381 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\92\88b752b8d87cd9133919095817597413 0
 62C:\ruby_labs\vectors_app\node_modules\@parcel\cache\index.d.ts133918873442720000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\ba\1d9533969cbbf7133918765235533682 0
@@ -1745,6 +1755,9 @@
 77C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\features\indexeddb.js133918873451800000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\49\1956d72753ef5d133918765237285686 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b7\83d63e08a0e802133918765221940710 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\eb\ac3422d3755c9e133918765237447313 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\15\65501b09b98c45133918765252036016 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\74\462affc2b97ce4133918791391616790 0
 69C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\regions\NA.js133918873451800000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\eb\bee106d6a32547133918765286268366 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\bf\00de19f8379674133918765250648994 0
@@ -1909,10 +1922,6 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\c8\8e619f879100a4133918765269250398 0
 72C:\ruby_labs\vectors_app\node_modules\mkdirp\dist\cjs\src\index.d.ts.map133918879335229952 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\e4\ce2417d2e37095133918785058324978 0
-68C:\ruby_labs\vectors_app\node_modules\@parcel\workers\src\backend.js133918873444370000 0
-82C:\ruby_labs\vectors_app\node_modules\@swc\helpers\esm\_class_private_field_set.js133918873449120000 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\e4\ea89d90c2d2de2133918791391071606 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\38\d73c702acb078e133918765226907122 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\e3\7b37dca419c1db133918765267470789 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\e3\7eb4ae94ab63f8133918765250724048 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\ca\8d44351f2d73ff133918765299980216 0
@@ -2416,7 +2425,6 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\72\8c8f70bbe687b8133918785049970124 0
 57C:\ruby_labs\vectors_app\node_modules\lmdb\dict\dict2.txt133918879336288174 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\be\5f65815a07261e133918765220794416 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b0\f7e4b5214fee45133918765224695088 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\6a\ae03fcce1d8f74133918785056856972 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\be\7d37ca6f4a10c8133918765256810933 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\92\ce9be0284baee9133918765235865590 0
@@ -2486,11 +2494,6 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\97\ba58ff53972381133918785058475045 0
 57C:\ruby_labs\vectors_app\node_modules\semver\package.json133918879335416186 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b9\81ec34b19b4c35133918765294945721 0
-71C:\ruby_labs\vectors_app\config\initializers\content_security_policy.rb133918764504613259 0
-67C:\ruby_labs\vectors_app\node_modules\@swc\helpers\src\_dispose.mjs133918873449120000 0
-58C:\ruby_labs\vectors_app\node_modules\yallist\package.json133918877687480000 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\62\4796b584c92b63133918785053690905 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b9\af92300163b147133918791036432590 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\5e\e038f6488c33f3133918765228902387 0
 88C:\ruby_labs\vectors_app\node_modules\@parcel\error-overlay\src\containers\StackFrame.js133918873449790000 0
 59C:\ruby_labs\vectors_app\node_modules\@parcel\packager-wasm133918873475928213 1
@@ -2510,7 +2513,7 @@
 67C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\extract.d.ts.map133918877685610000 0
 67C:\ruby_labs\vectors_app\node_modules\type-fest\source\entries.d.ts133918873455930000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\3d\c6f4236e0b3091133918785047854420 0
-44C:\ruby_labs\vectors_app\log\development.log133920560293333912 0
+44C:\ruby_labs\vectors_app\log\development.log133921546478096177 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b6\5da9d31c69b22f133918791395590188 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\35\12353fe4e46fe2133918791395890215 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\58\283decdc46d6c3133918791397666611 0
@@ -2572,6 +2575,7 @@
 74C:\ruby_labs\vectors_app\node_modules\@parcel\source-map\node_modules\.bin133918879340624870 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\4c\a4377139974a07133918765223868719 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b0\763c1670bb242a133918910416197116 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\b0\f7e4b5214fee45133918765224695088 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\af\8331bff027d0d2133918791388764758 0
 55C:\ruby_labs\vectors_app\node_modules\term-size\license133918873447290000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\08\a95cfb856f4bcd133918765223491798 0
@@ -3251,7 +3255,7 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\78\ef73f311c116c8133918765237315685 0
 93C:\ruby_labs\vectors_app\node_modules\@parcel\error-overlay\src\effects\unhandledRejection.js133918873449790000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\77\7678f1f6d626f0133918765237140550 0
-42C:\ruby_labs\vectors_app\app\views\layouts133920560272796578 1
+42C:\ruby_labs\vectors_app\app\views\layouts133921510133148220 1
 87C:\ruby_labs\vectors_app\node_modules\@parcel\error-overlay\src\utils\getStackFrames.js133918873449790000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\3e\aac3312edc3a3c133918765295936996 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\75\4bbc2c80c8ed7c133918765348813237 0
@@ -3286,7 +3290,7 @@
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\27\f26d71c89edd31133918765275372474 0
 80C:\ruby_labs\vectors_app\node_modules\@hotwired\turbo-rails\app\javascript\turbo133918873484591345 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\71\6d0756f4985008133918821916867988 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\71\f2502544af6e6d133920552407616432 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\71\f2502544af6e6d133921508884723406 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\70\3790569e8b2386133918765289246894 0
 57C:\ruby_labs\vectors_app\node_modules\commander\Readme.md133918873430440000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\59\0a698bb8632789133918791402213258 0
@@ -3447,12 +3451,12 @@
 101C:\ruby_labs\vectors_app\node_modules\@swc\helpers\_\_class_apply_descriptor_destructure\package.json133918873449120000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\60\a38d7f031081b6133918765288594796 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\3a\7add225c8ce219133918765233167884 0
-91C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\4d\9f0af5f7ae991f.tmp.moFj5f133919632903245814 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\52\f783e7c06d62e6133918785031229117 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\5f\909f2eef22ce4d133918785060601692 0
 82C:\ruby_labs\vectors_app\node_modules\@parcel\utils\test\input\sourcemap\inline.js133918873429150000 0
 79C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\features\ol-reversed.js133918873451800000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\3c\82fbf024fc7fe2133918910415526799 0
+91C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\4d\9f0af5f7ae991f.tmp.moFj5f133919632903245814 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\52\f783e7c06d62e6133918785031229117 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\5f\909f2eef22ce4d133918785060601692 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\5f\afdd8b0ee3ded5133918765238876382 0
 54C:\ruby_labs\vectors_app\node_modules\@parcel\core\src133918873477617523 1
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2a\9a327ce440c471133918785057212582 0
@@ -3841,7 +3845,7 @@
 62C:\ruby_labs\vectors_app\node_modules\enhanced-resolve\LICENSE133918877682730000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\30\e4fcb66c9d302b133918765344688270 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\30\fa242c2056da22133918765260628677 0
-80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2f\0e3c9a4f567993133920549196591787 0
+80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2f\0e3c9a4f567993133921501582323191 0
 69C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\regions\BA.js133918873451800000 0
 80C:\ruby_labs\vectors_app\tmp\cache\bootsnap\compile-cache-iseq\2f\321f53dc86ff68133918765267027890 0
 80C:\ruby_labs\vectors_app\node_modules\@swc\helpers\_\_ts_add_disposable_resource133918873484184985 1
@@ -4428,6 +4432,7 @@
 77C:\ruby_labs\vectors_app\node_modules\utility-types\dist\utility-types.js.map133918873452820000 0
 70C:\ruby_labs\vectors_app\node_modules\update-browserslist-db\README.md133918879335027770 0
 73C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\regions\alt-ww.js133918873451800000 0
+57C:\ruby_labs\vectors_app\app\views\pages\history.html.erb133921524060616990 0
 69C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\regions\SO.js133918873451800000 0
 57C:\ruby_labs\vectors_app\node_modules\type-fest\base.d.ts133918873455930000 0
 73C:\ruby_labs\vectors_app\node_modules\lightningcss-win32-x64-msvc\LICENSE133918873455230000 0
@@ -4482,7 +4487,7 @@
 60C:\ruby_labs\vectors_app\node_modules\term-size\vendor\macos133918873484571350 1
 62C:\ruby_labs\vectors_app\node_modules\term-size\vendor\windows133918873484571350 1
 69C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\regions\EG.js133918873451800000 0
-44C:\ruby_labs\vectors_app\.idea\workspace.xml133920565458906638 0
+44C:\ruby_labs\vectors_app\.idea\workspace.xml133921514539604910 0
 76C:\ruby_labs\vectors_app\node_modules\term-size\vendor\windows\term-size.exe133918873447290000 0
 70C:\ruby_labs\vectors_app\node_modules\term-size\vendor\macos\.DS_Store133918873447290000 0
 70C:\ruby_labs\vectors_app\node_modules\term-size\vendor\macos\term-size133918873447290000 0
@@ -4549,8 +4554,6 @@
 75C:\ruby_labs\vectors_app\node_modules\@mischnic\json-sourcemap\package.json133918873441250000 0
 59C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\pax.d.ts133918877685610000 0
 63C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\pax.d.ts.map133918877685610000 0
-61C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\pax.js.map133918877685610000 0
-80C:\ruby_labs\vectors_app\node_modules\enhanced-resolve\lib\ImportsFieldPlugin.js133918877682730000 0
 66C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\read-entry.d.ts133918877685610000 0
 64C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\read-entry.js133918877685610000 0
 63C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\replace.d.ts133918877685610000 0
@@ -4559,8 +4562,8 @@
 66C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-json\src133918873478198237 1
 77C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\strip-absolute-path.js.map133918877685610000 0
 82C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\strip-trailing-slashes.d.ts.map133918877685610000 0
-76C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\strip-trailing-slashes.js133918877685610000 0
 69C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\regions\GB.js133918873451800000 0
+76C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\strip-trailing-slashes.js133918877685610000 0
 80C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\strip-trailing-slashes.js.map133918877685610000 0
 67C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\symlink-error.js133918877685610000 0
 61C:\ruby_labs\vectors_app\node_modules\tar\dist\esm\types.d.ts133918877685610000 0
@@ -4598,7 +4601,7 @@
 68C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\index.js.map133918877685610000 0
 74C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\large-numbers.d.ts133918877685610000 0
 65C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\list.d.ts133918877685610000 0
-41C:\ruby_labs\vectors_app\config\routes.rb133920547884162182 0
+41C:\ruby_labs\vectors_app\config\routes.rb133921501569969329 0
 69C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\list.d.ts.map133918877685610000 0
 78C:\ruby_labs\vectors_app\node_modules\enhanced-resolve\lib\FileExistsPlugin.js133918877682730000 0
 63C:\ruby_labs\vectors_app\node_modules\tar\dist\commonjs\list.js133918877685610000 0
@@ -5128,7 +5131,7 @@
 91C:\ruby_labs\vectors_app\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc2.c133918879335582069 0
 73C:\ruby_labs\vectors_app\node_modules\lmdb\dependencies\lz4\lib\lz4file.c133918879335305508 0
 73C:\ruby_labs\vectors_app\node_modules\lmdb\dependencies\lz4\lib\lz4file.h133918879335985829 0
-60C:\ruby_labs\vectors_app\app\controllers\pages_controller.rb133920551924411838 0
+60C:\ruby_labs\vectors_app\app\controllers\pages_controller.rb133921504995668815 0
 71C:\ruby_labs\vectors_app\node_modules\lmdb\dependencies\lz4\lib\lz4hc.c133918879335360587 0
 72C:\ruby_labs\vectors_app\node_modules\lmdb\dependencies\lz4\lib\xxhash.c133918879335749635 0
 68C:\ruby_labs\vectors_app\node_modules\@parcel\core\src\serializer.js133918873423710000 0
@@ -5685,7 +5688,7 @@
 79C:\ruby_labs\vectors_app\node_modules\@swc\helpers\esm\_class_name_tdz_error.js133918873449120000 0
 78C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\features\es6-number.js133918873451800000 0
 71C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\features\es6.js133918873451800000 0
-58C:\ruby_labs\vectors_app\app\assets\builds\application.css133920560273356622 0
+58C:\ruby_labs\vectors_app\app\assets\builds\application.css133921524061226227 0
 79C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\features\eventsource.js133918873451800000 0
 82C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\features\feature-policy.js133918873451800000 0
 85C:\ruby_labs\vectors_app\node_modules\caniuse-lite\data\features\fieldset-disabled.js133918873451800000 0
@@ -6480,6 +6483,7 @@
 94C:\ruby_labs\vectors_app\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133918873429150000 0
 77C:\ruby_labs\vectors_app\node_modules\@parcel\utils\test\input\config\.testrc133918873429150000 0
 80C:\ruby_labs\vectors_app\node_modules\@parcel\utils\test\input\config\config.cjs133918873429150000 0
+63C:\ruby_labs\vectors_app\app\controllers\password_controller.rb133921501570029610 0
 66C:\ruby_labs\vectors_app\node_modules\@jridgewell\resolve-uri\dist133918877692274917 1
 81C:\ruby_labs\vectors_app\node_modules\@parcel\utils\test\input\config\config.json133918873429150000 0
 56C:\ruby_labs\vectors_app\node_modules\@parcel\events\lib133918873477765776 1
@@ -6572,6 +6576,7 @@
 80C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-image\src\loadSharp.js133918873438820000 0
 85C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-image\src\validateConfig.js133918873438820000 0
 80C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-image\lib\loadSharp.js133918873438820000 0
+57C:\ruby_labs\vectors_app\app\views\pages\profile.html.erb133921521863851344 0
 85C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-image\lib\validateConfig.js133918873438820000 0
 66C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-html\lib133918873478198237 1
 70C:\ruby_labs\vectors_app\node_modules\@parcel\transformer-html\LICENSE133918873438400000 0
@@ -6719,7 +6724,7 @@
 65C:\ruby_labs\vectors_app\node_modules\@parcel\plugin\package.json133918873442880000 0
 56C:\ruby_labs\vectors_app\node_modules\@parcel\plugin\src133918873477976471 1
 69C:\ruby_labs\vectors_app\node_modules\@parcel\plugin\lib\PluginAPI.js133918873442880000 0
-40C:\ruby_labs\vectors_app\app\controllers133920555193220100 1
+40C:\ruby_labs\vectors_app\app\controllers133921504995678798 1
 72C:\ruby_labs\vectors_app\node_modules\@parcel\packager-wasm\package.json133918873435220000 0
 86C:\ruby_labs\vectors_app\node_modules\@parcel\packager-wasm\src\wasm-sourcemap.js.flow133918873435220000 0
 81C:\ruby_labs\vectors_app\node_modules\@parcel\packager-wasm\lib\wasm-sourcemap.js133918873435220000 0
@@ -7106,7 +7111,7 @@
 103C:\ruby_labs\vectors_app\node_modules\@hotwired\stimulus\dist\types\tests\cases\observer_test_case.d.ts133918873423650000 0
 110C:\ruby_labs\vectors_app\node_modules\@hotwired\stimulus\dist\types\mutation-observers\attribute_observer.d.ts133918873423650000 0
 37C:\ruby_labs\vectors_app\.kamal\hooks133918765711137849 1
-54C:\ruby_labs\vectors_app\app\views\pages\home.html.erb133920472919359809 0
+54C:\ruby_labs\vectors_app\app\views\pages\home.html.erb133921509536368502 0
 108C:\ruby_labs\vectors_app\node_modules\@hotwired\stimulus\dist\types\mutation-observers\element_observer.d.ts133918873423650000 0
 97C:\ruby_labs\vectors_app\node_modules\@hotwired\stimulus\dist\types\mutation-observers\index.d.ts133918873423650000 0
 109C:\ruby_labs\vectors_app\node_modules\@hotwired\stimulus\dist\types\mutation-observers\selector_observer.d.ts133918873423650000 0
@@ -7179,10 +7184,11 @@
 39C:\ruby_labs\vectors_app\app\javascript133918765581502961 1
 33C:\ruby_labs\vectors_app\app\jobs133918764501754879 1
 34C:\ruby_labs\vectors_app\app\views133919649715547179 1
-40C:\ruby_labs\vectors_app\app\views\pages133920472919359809 1
+40C:\ruby_labs\vectors_app\app\views\pages133921525304080371 1
 56C:\ruby_labs\vectors_app\app\views\pwa\manifest.json.erb133918764502320018 0
 56C:\ruby_labs\vectors_app\app\views\pwa\service-worker.js133918764502400024 0
-63C:\ruby_labs\vectors_app\app\views\layouts\application.html.erb133920560272796578 0
+57C:\ruby_labs\vectors_app\app\views\pages\support.html.erb133921525304070377 0
+63C:\ruby_labs\vectors_app\app\views\layouts\application.html.erb133921510133148220 0
 58C:\ruby_labs\vectors_app\app\views\layouts\mailer.html.erb133918764502220025 0
 58C:\ruby_labs\vectors_app\app\views\layouts\mailer.text.erb133918764502260024 0
 66C:\ruby_labs\vectors_app\app\services\vector_calculator_service.rb133920471103306381 0
@@ -7192,6 +7198,8 @@
 58C:\ruby_labs\vectors_app\app\mailers\application_mailer.rb133918764501844879 0
 71C:\ruby_labs\vectors_app\app\javascript\controllers\hello_controller.js133918844249547007 0
 66C:\ruby_labs\vectors_app\app\controllers\application_controller.rb133920555193220100 0
+68C:\ruby_labs\vectors_app\app\controllers\registrations_controller.rb133921491498633040 0
+63C:\ruby_labs\vectors_app\app\controllers\sessions_controller.rb133921493498542139 0
 42C:\ruby_labs\vectors_app\app\assets\builds133920425119497143 1
 72C:\ruby_labs\vectors_app\app\assets\stylesheets\application.tailwind.css133920461108182973 0
 70C:\ruby_labs\vectors_app\app\assets\builds\actioncable.410bebd3.js.map133920425119457141 0

@@ -2,26 +2,13 @@ class PagesController < ApplicationController
   def home
   end
 
-  def registration
-  end
-
-  def login
-  end
-
-  def logout
-  end
-
-  def reset_password
-
-  end
-
   def history
   end
 
   def support
-
+    render "pages/support"
   end
   def profile
-
+    render "pages/profile"
   end
 end

@@ -1,0 +1,22 @@
+<div class="max-w-3xl w-full mx-auto bg-white shadow-md rounded-lg p-6">
+  <h1 class="text-2xl font-bold mb-4">Профиль пользователя</h1>
+
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Данные аккаунта</h2>
+    <dl class="space-y-3">
+      <div class="flex">
+        <dt class="w-32 font-medium">Логин:</dt>
+        <dd><%= "Ваш логин" %></dd>
+      </div>
+      <div class="flex">
+        <dt class="w-32 font-medium">Email:</dt>
+        <dd><%= "Ваша почта" %></dd>
+      </div>
+    </dl>
+  </section>
+
+  <section>
+    <h2 class="text-xl font-semibold mb-2">Безопасность</h2>
+    <%= link_to "Сменить пароль", password_path, class: "inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition" %>
+  </section>
+</div>
