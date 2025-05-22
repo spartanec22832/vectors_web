@@ -36,11 +36,11 @@ class VectorCalculatorService
   end
 
   def parsed_matrix
-    str = @params[:matrix].to_s
+    str = @params[:matrix].to_s.strip
     return nil if str.empty?
 
-    str
-      .split(";")
-      .map { |row| row.split(",").map(&:to_f) }
+    str.lines.map do |row|
+      row.split.map(&:to_f)
+    end
   end
 end
