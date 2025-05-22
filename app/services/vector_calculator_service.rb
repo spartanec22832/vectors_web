@@ -28,18 +28,35 @@ class VectorCalculatorService
   private
 
   def parsed_vector(key)
-    str = @params[key].to_s
-    return nil if str.empty?
+    str = @params[key].to_s.strip
+    raise ArgumentError, "Поле ввода не должно быть пустым" if str.empty?
 
-    str.split(",").map(&:to_f)
+    # Разбиваем по любому сочетанию запятых и пробелов:
+    parts = str.split(/[,\s]+/)
 
+    parts.each do |cell|
+      unless numeric_string?(cell)
+        raise ArgumentError, "Неправильный элемент «#{cell}»: ожидается число"
+      end
+    end
+
+    parts.map(&:to_f)
+  end
+
+
+  def numeric_string?(s)
+    /\A[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?\z/ === s
   end
 
   def parsed_matrix
-    str = @params[:matrix].to_s.strip
-    return nil if str.empty?
+    matrix = @params[:matrix].to_s.strip
 
-    str.lines.map do |row|
+    matrix.lines.map do |row|
+      row.split.each do |cell|
+        unless numeric_string?(cell)
+          raise ArgumentError, "Неправильный элемент «#{cell}». ожидается число"
+        end
+      end
       row.split.map(&:to_f)
     end
   end

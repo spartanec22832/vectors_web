@@ -1,4 +1,4 @@
-7131
+7133
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\f3\dd0123a1f2ccb2.tmp.q2o1Lq133919058940000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\7a133924093055452997 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b5\050bef4d5c19e6133919058980000000 0
@@ -25,7 +25,7 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\d2\78509259fd3d43133919058980000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\f1\deb37a19dd2082133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\bb\9206261d960213133919058980000000 0
-31C:\RUBY\Rails\vectors_web\.idea133924188667123853 1
+31C:\RUBY\Rails\vectors_web\.idea133924263399989288 1
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\f9133924093153514714 1
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ed133924093143334325 1
 76C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\load-path-cache.18644.53528.tmp133924185470763901 0
@@ -75,7 +75,7 @@
 72C:\RUBY\Rails\vectors_web\node_modules\tar\dist\commonjs\unpack.d.ts.map133919644800000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\71\a11fb959076128133919059000000000 0
 74C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\meter.js133919644800000000 0
-36C:\RUBY\Rails\vectors_web\.gitignore133920608880000000 0
+36C:\RUBY\Rails\vectors_web\.gitignore133924214707919001 0
 37C:\RUBY\Rails\vectors_web\tmp\storage133924093160290359 1
 73C:\RUBY\Rails\vectors_web\node_modules\@rails\actioncable\src\consumer.js133919644780000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\59\e74fae39ad8df6133919725620000000 0
@@ -94,9 +94,6 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\d2\33ae83abba2959133919058980000000 0
 64C:\RUBY\Rails\vectors_web\node_modules\tar\dist\commonjs\list.js133919644780000000 0
 38C:\RUBY\Rails\vectors_web\Gemfile.lock133924185373069510 0
-56C:\RUBY\Rails\vectors_web\node_modules\tslib\SECURITY.md133919644780000000 0
-64C:\RUBY\Rails\vectors_web\node_modules\@swc\counter\package.json133919644780000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-yaml\f3\30230a78ca44d5133919059000000000 0
 29C:\RUBY\Rails\vectors_web\app133924092548069727 1
 71C:\RUBY\Rails\vectors_web\node_modules\mkdirp\dist\mjs\find-made.js.map133919644780000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\cf\f16df3ac4ca358133919058960000000 0
@@ -162,7 +159,7 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\c7\5dfaeaf0adc1a3133919058960000000 0
 52C:\RUBY\Rails\vectors_web\node_modules\picomatch\lib133924092900419531 1
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\44\2fdf082b46434e.tmp.31ByTa133919058960000000 0
-66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\01133924092958902366 1
+66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\01133924253129743383 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b6\5da9d31c69b22f133919058980000000 0
 65C:\RUBY\Rails\vectors_web\node_modules\picomatch\lib\constants.js133919644780000000 0
 29C:\RUBY\Rails\vectors_web\lib133924092553535885 1
@@ -195,7 +192,7 @@
 76C:\RUBY\Rails\vectors_web\node_modules\mkdirp\dist\cjs\src\use-native.js.map133919644800000000 0
 74C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\esm\_overload_yield.js133919644800000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\92133924093073960398 1
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\cd\53ecf31c4b96c9133924187435917915 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\cd\53ecf31c4b96c9133924248858553336 0
 100C:\RUBY\Rails\vectors_web\node_modules\@tailwindcss\oxide\node_modules\detect-libc\lib\filesystem.js133919644780000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\9e\6f21fe45444a58133919058940000000 0
 37C:\RUBY\Rails\vectors_web\tmp\sockets133919058980000000 1
@@ -250,7 +247,7 @@
 58C:\RUBY\Rails\vectors_web\node_modules\chownr\package.json133919644780000000 0
 74C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\load-path-cache.11584.436.tmp133920608840000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1d133924092980936265 1
-34C:\RUBY\Rails\vectors_web\tmp\pids133924190342664299 1
+34C:\RUBY\Rails\vectors_web\tmp\pids133924264452295905 1
 70C:\RUBY\Rails\vectors_web\node_modules\msgpackr\dist\index-no-eval.cjs133919644780000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\c5\8155e452b070f7133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\16\58a21cc6278eda133919058940000000 0
@@ -322,9 +319,13 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\68\f00f69b9c7916e133919868920000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\cb\38e2f1152f3d5c133919058940000000 0
 43C:\RUBY\Rails\vectors_web\tmp\storage\.keep133919057780000000 0
-44C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap133924190340335604 1
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\8f\93f0f4b9877e9d133919058960000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\f6\98f859afad652e133919058960000000 0
+47C:\RUBY\Rails\vectors_web\config\environment.rb133919057780000000 0
+45C:\RUBY\Rails\vectors_web\tmp\pids\server.pid133924264452295905 0
+44C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap133924264449825789 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\3e\eccdb060192c9f133919058980000000 0
-60C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\load-path-cache133924190340321469 0
+60C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\load-path-cache133924264449811585 0
 88C:\RUBY\Rails\vectors_web\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\crypto.c133919644780000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\34133924093000534288 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\80\633c542321b526133919058980000000 0
@@ -357,6 +358,9 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\3c\28f4acb830f461133919723360000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ee\bdb66e6fb5d3ba133919058980000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-yaml\f3133924093159916238 1
+56C:\RUBY\Rails\vectors_web\node_modules\tslib\SECURITY.md133919644780000000 0
+64C:\RUBY\Rails\vectors_web\node_modules\@swc\counter\package.json133919644780000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-yaml\f3\30230a78ca44d5133919059000000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1e\bc8475198833ee.tmp.l7Tjn4133919058960000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ff\41ba00148ed132.tmp.aZFTTe133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-yaml\d2\f1f5bde4fe2b15133919059000000000 0
@@ -768,7 +772,7 @@
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4d133924093022171381 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\93\c1e526769f5119133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\50\de1b8699bdb303133919058980000000 0
-66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4e133924131886170317 1
+66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4e133924264539151409 1
 68C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\scripts\utils.js133919644800000000 0
 58C:\RUBY\Rails\vectors_web\node_modules\json5\dist\index.js133919644780000000 0
 70C:\RUBY\Rails\vectors_web\node_modules\@parcel\core\lib\BundleGraph.js133919644800000000 0
@@ -795,16 +799,6 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\a9\6c225edad8ed86133919058980000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\52133924093025746872 1
 68C:\RUBY\Rails\vectors_web\node_modules\tar\dist\esm\warn-method.d.ts133919644800000000 0
-80C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\cjs\_array_like_to_array.cjs133919644780000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ec\150307b25b16e5133919058940000000 0
-62C:\RUBY\Rails\vectors_web\node_modules\tar\dist\esm\mkdir.d.ts133919644800000000 0
-92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b1\eed85a31523a70.tmp.VHaiYi133919058960000000 0
-62C:\RUBY\Rails\vectors_web\node_modules\@parcel\optimizer-image133924092624703530 1
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\8e\22a71df8ca5188133919058940000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\c0\f8b694da185036133919058940000000 0
-68C:\RUBY\Rails\vectors_web\node_modules\@parcel\profiler\src\types.js133919644780000000 0
-84C:\RUBY\Rails\vectors_web\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js133919644780000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ca\d58566d79dd372133919058960000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\53133924093026418684 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\d8\3bef79fe649c5c133919059000000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\c6\c17779ea2c040c133919058960000000 0
@@ -1208,7 +1202,7 @@
 74C:\RUBY\Rails\vectors_web\node_modules\tar\dist\esm\normalize-unicode.d.ts133919644800000000 0
 46C:\RUBY\Rails\vectors_web\node_modules\mri\lib133924092885014715 1
 57C:\RUBY\Rails\vectors_web\app\views\pwa\manifest.json.erb133919057780000000 0
-66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\cd133924187435917915 1
+66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\cd133924248858553336 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\81\6917dad946090c133919723400000000 0
 66C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ce133924093122436069 1
 68C:\RUBY\Rails\vectors_web\node_modules\msgpackr-extract\package.json133919644780000000 0
@@ -1548,10 +1542,10 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4e\c0086951d006ad133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\5b\060effda323974133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\d5\8baf123f589b87133919723360000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\71\41531abf0f3898133919059000000000 0
-70C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\regions\IE.js133919644800000000 0
 83C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\scrollintoview.js133919644800000000 0
 59C:\RUBY\Rails\vectors_web\node_modules\dotenv\lib\main.d.ts133919644780000000 0
+70C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\regions\IE.js133919644800000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\71\41531abf0f3898133919059000000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\09\aaf0d350917aaa133919058980000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\49\c0a2989291d53f.tmp.7SuiNC133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\fb\eeb7688f14951b133919058960000000 0
@@ -1657,8 +1651,6 @@
 67C:\RUBY\Rails\vectors_web\node_modules\tar\dist\commonjs\parse.d.ts133919644800000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\f6\79fd97d5ee7191133919058980000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\02\be72516af31239133919058980000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\8f\93f0f4b9877e9d133919058960000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\f6\98f859afad652e133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b5\ef390bd4ffdd3a133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\f5\07ee1fd692cf54133919723360000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\04\652b0abe984dda133919058980000000 0
@@ -1773,6 +1765,16 @@
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\bc\8b7f862efb830a.tmp.1VHiFb133919058940000000 0
 55C:\RUBY\Rails\vectors_web\node_modules\chalk\index.d.ts133919644780000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ed\f308c1c12babfa133919653600000000 0
+80C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\cjs\_array_like_to_array.cjs133919644780000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ec\150307b25b16e5133919058940000000 0
+62C:\RUBY\Rails\vectors_web\node_modules\tar\dist\esm\mkdir.d.ts133919644800000000 0
+92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b1\eed85a31523a70.tmp.VHaiYi133919058960000000 0
+62C:\RUBY\Rails\vectors_web\node_modules\@parcel\optimizer-image133924092624703530 1
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\8e\22a71df8ca5188133919058940000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\c0\f8b694da185036133919058940000000 0
+68C:\RUBY\Rails\vectors_web\node_modules\@parcel\profiler\src\types.js133919644780000000 0
+84C:\RUBY\Rails\vectors_web\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js133919644780000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ca\d58566d79dd372133919058960000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\ec\2f9e93a43221b6.tmp.zl0KVS133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\91\ac8909080ce8f0133919058980000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\be\5f65815a07261e.tmp.d0YgAE133919058940000000 0
@@ -1928,6 +1930,8 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\e1\35f37910f9ad6e133919058980000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\bc\407349d4eb7d10133919058960000000 0
 66C:\RUBY\Rails\vectors_web\node_modules\tar\dist\esm\replace.js.map133919644800000000 0
+90C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\dom-manip-convenience.js133919644800000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\01\b860bd34519cc8133924253129733396 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\e1\881715cb412112133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\e0\56bd659e80d8fd133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\c0\478c68b1813b12133919058980000000 0
@@ -2396,8 +2400,8 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b8\f4708f009a6262133919058980000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\43\4b63f6b9f17f62.tmp.x3h8Ii133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b7\33cb4e9726755c133919058940000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\3a\94b46e86efef45133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\9e\54f8af549fbd2e133919058960000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\3a\94b46e86efef45133919058940000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\9e\6321b2ef745c5f.tmp.pH94C1133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b6\69157d75f85f37133919058980000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\b6\9a77e8a128408f133924185654039180 0
@@ -2941,7 +2945,7 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\8f\8d8c2089e7cc28133919058980000000 0
 76C:\RUBY\Rails\vectors_web\node_modules\type-fest\source\merge-exclusive.d.ts133919644780000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\8f\d8d1fc286ddaa5133919058980000000 0
-45C:\RUBY\Rails\vectors_web\log\development.log133924190441991606 0
+45C:\RUBY\Rails\vectors_web\log\development.log133924265965145950 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\8f\f7d6e20919c18b133919059000000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1b\1448a6b1624e20133919058960000000 0
 66C:\RUBY\Rails\vectors_web\node_modules\tailwindcss\dist\colors.mjs133919644780000000 0
@@ -3515,7 +3519,7 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4f\98c1ced044c753133919058980000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4f\e4e50bf8c6c967.tmp.PqgXYa133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1b\e2fa672c11987a133919723340000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4e\6030408e3f6205133924131886160318 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4e\6030408e3f6205133924264539141422 0
 51C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite133924092829882935 1
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4e\85f57268ac0a1c133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\4e\cbcc6ea2d6f93e133919058980000000 0
@@ -3890,7 +3894,7 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\26\374e76739dfe3e133919058940000000 0
 66C:\RUBY\Rails\vectors_web\node_modules\tapable\lib\util-browser.js133919644780000000 0
 68C:\RUBY\Rails\vectors_web\node_modules\tar\dist\esm\cwd-error.js.map133919644800000000 0
-67C:\RUBY\Rails\vectors_web\app\services\vector_calculator_service.rb133924186335217973 0
+67C:\RUBY\Rails\vectors_web\app\services\vector_calculator_service.rb133924248846669838 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\26\71abcfd0967777133919058940000000 0
 92C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\25\7038625aa82e42.tmp.8j8sY7133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\0a\1a7a5c2cbcdd51133919058940000000 0
@@ -3960,11 +3964,11 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1e\5305d8371bd48b133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1e\7e3d8c0092235c133924095823852625 0
 81C:\RUBY\Rails\vectors_web\node_modules\utility-types\dist\aliases-and-guards.d.ts133919644780000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1e\86e4dcace5fd8d133919058940000000 0
-81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1a\ae7b26ff8c42f0133919058940000000 0
-70C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\regions\IL.js133919644800000000 0
 60C:\RUBY\Rails\vectors_web\node_modules\@hotwired\turbo-rails133924092572217302 1
 88C:\RUBY\Rails\vectors_web\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133919644800000000 0
+70C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\regions\IL.js133919644800000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1e\86e4dcace5fd8d133919058940000000 0
+81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1a\ae7b26ff8c42f0133919058940000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1e\bc8475198833ee133919058960000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\1e\bed2503e7b8359133919058980000000 0
 62C:\RUBY\Rails\vectors_web\node_modules\semver\functions\gte.js133919644780000000 0
@@ -4095,7 +4099,7 @@
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\10\fd9090917595e4133919058980000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\0f\0b22055cd76b05133919058980000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\0f\130a09021b9ee6133919058980000000 0
-59C:\RUBY\Rails\vectors_web\app\assets\builds\application.css133924187369478521 0
+59C:\RUBY\Rails\vectors_web\app\assets\builds\application.css133924264435170791 0
 85C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\webkit-user-drag.js133919644820000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\05\d4701517a54e23133919058940000000 0
 77C:\RUBY\Rails\vectors_web\node_modules\tar\dist\commonjs\warn-method.d.ts.map133919644800000000 0
@@ -4168,7 +4172,7 @@
 70C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\regions\BD.js133919644800000000 0
 105C:\RUBY\Rails\vectors_web\node_modules\@hotwired\stimulus\dist\types\tests\modules\core\action_tests.d.ts133919644780000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\04\296504d89001a2133919058960000000 0
-41C:\RUBY\Rails\vectors_web\app\controllers133924177419689191 1
+41C:\RUBY\Rails\vectors_web\app\controllers133924257575509007 1
 75C:\RUBY\Rails\vectors_web\node_modules\@parcel\reporter-tracer\package.json133919644780000000 0
 65C:\RUBY\Rails\vectors_web\node_modules\tar\dist\esm\pack.d.ts.map133919644800000000 0
 81C:\RUBY\Rails\vectors_web\tmp\cache\bootsnap\compile-cache-iseq\04\43166913dee44e133919058980000000 0
@@ -4986,7 +4990,7 @@
 55C:\RUBY\Rails\vectors_web\node_modules\lmdb\src\env.cpp133919644800000000 0
 59C:\RUBY\Rails\vectors_web\node_modules\lmdb\src\lmdb-js.cpp133919644800000000 0
 58C:\RUBY\Rails\vectors_web\node_modules\lmdb\src\writer.cpp133919644800000000 0
-63C:\RUBY\Rails\vectors_web\app\controllers\vectors_controller.rb133924131182561714 0
+63C:\RUBY\Rails\vectors_web\app\controllers\vectors_controller.rb133924257575509007 0
 71C:\RUBY\Rails\vectors_web\node_modules\lmdb\node_modules\node-addon-api133924092870592479 1
 73C:\RUBY\Rails\vectors_web\node_modules\@parcel\watcher\src\wasm\include.h133919644780000000 0
 83C:\RUBY\Rails\vectors_web\node_modules\lmdb\node_modules\node-addon-api\except.gypi133919644780000000 0
@@ -5564,7 +5568,6 @@
 73C:\RUBY\Rails\vectors_web\node_modules\@parcel\types-internal\src\Glob.js133919644780000000 0
 76C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\src\_read_only_error.mjs133919644800000000 0
 84C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\document-policy.js133919644800000000 0
-90C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\dom-manip-convenience.js133919644800000000 0
 78C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\dommatrix.js133919644800000000 0
 87C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\_\_array_like_to_array\package.json133919644800000000 0
 77C:\RUBY\Rails\vectors_web\node_modules\caniuse-lite\data\features\download.js133919644800000000 0
@@ -6133,7 +6136,7 @@
 58C:\RUBY\Rails\vectors_web\app\views\pages\support.html.erb133924177419709353 0
 86C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\esm\_class_private_field_update.js133919644800000000 0
 84C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\esm\_class_private_method_get.js133919644800000000 0
-43C:\RUBY\Rails\vectors_web\app\views\layouts133924189799474188 1
+43C:\RUBY\Rails\vectors_web\app\views\layouts133924211695591538 1
 85C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\esm\_class_private_method_init.js133919644800000000 0
 84C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\esm\_class_private_method_set.js133919644800000000 0
 95C:\RUBY\Rails\vectors_web\node_modules\@swc\helpers\esm\_class_static_private_field_spec_set.js133919644800000000 0
@@ -7080,7 +7083,6 @@
 42C:\RUBY\Rails\vectors_web\config\cable.yml133919057780000000 0
 45C:\RUBY\Rails\vectors_web\config\database.yml133919508140000000 0
 43C:\RUBY\Rails\vectors_web\config\deploy.yml133919057780000000 0
-47C:\RUBY\Rails\vectors_web\config\environment.rb133919057780000000 0
 45C:\RUBY\Rails\vectors_web\config\environments133924092551562296 1
 45C:\RUBY\Rails\vectors_web\config\initializers133924092552058315 1
 40C:\RUBY\Rails\vectors_web\config\puma.rb133919057780000000 0
@@ -7095,13 +7097,13 @@
 39C:\RUBY\Rails\vectors_web\bin\kamal.cmd133919057780000000 0
 35C:\RUBY\Rails\vectors_web\bin\rails133919057780000000 0
 34C:\RUBY\Rails\vectors_web\bin\rake133919057780000000 0
-38C:\RUBY\Rails\vectors_web\app\services133924186335227986 1
-41C:\RUBY\Rails\vectors_web\app\views\pages133924188259156109 1
+38C:\RUBY\Rails\vectors_web\app\services133924248846684872 1
+41C:\RUBY\Rails\vectors_web\app\views\pages133924250570705452 1
 39C:\RUBY\Rails\vectors_web\app\views\pwa133924092548681436 1
 58C:\RUBY\Rails\vectors_web\app\views\pages\history.html.erb133924177419699256 0
-55C:\RUBY\Rails\vectors_web\app\views\pages\home.html.erb133924188259146098 0
+55C:\RUBY\Rails\vectors_web\app\views\pages\home.html.erb133924250570705452 0
 58C:\RUBY\Rails\vectors_web\app\views\pages\profile.html.erb133924177419709353 0
-64C:\RUBY\Rails\vectors_web\app\views\layouts\application.html.erb133924189799464194 0
+64C:\RUBY\Rails\vectors_web\app\views\layouts\application.html.erb133924211695591538 0
 59C:\RUBY\Rails\vectors_web\app\views\layouts\mailer.html.erb133919057780000000 0
 58C:\RUBY\Rails\vectors_web\app\models\application_record.rb133919057780000000 0
 49C:\RUBY\Rails\vectors_web\app\models\audit_log.rb133919896400000000 0
@@ -7117,13 +7119,13 @@
 55C:\RUBY\Rails\vectors_web\.kamal\hooks\pre-build.sample133919057780000000 0
 56C:\RUBY\Rails\vectors_web\.kamal\hooks\pre-deploy.sample133919057780000000 0
 42C:\RUBY\Rails\vectors_web\.idea\.gitignore133919057780000000 0
-43C:\RUBY\Rails\vectors_web\.idea\dataSources133924092541514079 1
+43C:\RUBY\Rails\vectors_web\.idea\dataSources133924254444124456 1
 53C:\RUBY\Rails\vectors_web\.idea\dataSources.local.xml133919670800000000 0
 47C:\RUBY\Rails\vectors_web\.idea\dataSources.xml133919670800000000 0
 47C:\RUBY\Rails\vectors_web\.idea\vectors_app.iml133920611440000000 0
-45C:\RUBY\Rails\vectors_web\.idea\workspace.xml133924188667123853 0
+45C:\RUBY\Rails\vectors_web\.idea\workspace.xml133924263399979235 0
 80C:\RUBY\Rails\vectors_web\.idea\dataSources\c4b0d033-66e5-46f9-bd63-dcaec3c15fc5133924092541544070 1
-84C:\RUBY\Rails\vectors_web\.idea\dataSources\c4b0d033-66e5-46f9-bd63-dcaec3c15fc5.xml133920616240000000 0
+84C:\RUBY\Rails\vectors_web\.idea\dataSources\c4b0d033-66e5-46f9-bd63-dcaec3c15fc5.xml133924254444114450 0
 91C:\RUBY\Rails\vectors_web\.idea\dataSources\c4b0d033-66e5-46f9-bd63-dcaec3c15fc5\storage_v2133924092541575617 1
 106C:\RUBY\Rails\vectors_web\.idea\dataSources\c4b0d033-66e5-46f9-bd63-dcaec3c15fc5\storage_v2\_src_\database133924092541737575 1
 142C:\RUBY\Rails\vectors_web\.idea\dataSources\c4b0d033-66e5-46f9-bd63-dcaec3c15fc5\storage_v2\_src_\database\vectors_app_development.bslmxQ.meta133919670780000000 0

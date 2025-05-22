@@ -9,23 +9,41 @@
                 html: { class: 'space-y-6' } do |f| %> <!-- с turbo не разобрался -->
 
     <div>
-      <%= f.label :operation, 'Что посчитать?', class: 'block text-sm font-medium text-gray-700' %>
+      <%= f.label :operation,
+                  'Что посчитать?',
+                  class: 'block text-sm font-medium text-gray-700' %>
+
       <%= f.select :operation,
                    options_for_select([
                                         ['Детерминант', 'determinant'],
                                         ['Скалярное произведение', 'dot'],
                                         ['Векторное произведение', 'cross']
-                                      ], selected: params[:operation] || 'determinant'),
-                   class: 'mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring',
+                                      ], params[:operation] || 'determinant'),
+                   {},    # пустой options-хэш
+                   class: %(
+                 mt-1
+                 block
+                 w-full
+                 border
+                 border-gray-300
+                 bg-white
+                 rounded-md
+                 px-1 py-2
+                 shadow-sm
+                 focus:outline-none
+                 focus:ring-2
+                 focus:ring-gray-500
+               ).squish,
                    prompt: false %>
     </div>
+
 
     <!-- Блок для ввода матрицы -->
     <div id="matrix-fields" class="<%= (params[:operation] || 'determinant') == 'determinant' ? '' : 'hidden' %>">
       <%= f.label :matrix, "Введите матрицу:", class: 'block text-sm font-medium text-gray-700' %>
       <%= f.text_area :matrix,
                       value: params[:matrix],
-                      placeholder: "1 2\n3 4",
+                      placeholder: "1   2   3\n4   5   6\n7   8   9",
                       rows: 3,
                       class: 'mt-1 block w-full border border-gray-300 rounded-md p-2 focus:border-blue-500 focus:ring-blue-500' %>
     </div>
@@ -33,12 +51,12 @@
     <!-- Блок для ввода векторов -->
     <div id="vector-fields" class="<%= (params[:operation] || 'determinant') == 'determinant' ? 'hidden' : '' %> space-y-4">
       <div>
-        <%= f.label :vector1, 'Вектор 1 (компоненты через запятую)', class: 'block text-sm font-medium text-gray-700' %>
-        <%= f.text_field :vector1, placeholder: '1,2,3', class: 'mt-1 block w-full rounded-md border border-gray-300', value: params[:vector1] %>
+        <%= f.label :vector1, 'Вектор 1', class: 'block text-sm font-medium text-gray-700' %>
+        <%= f.text_field :vector1, placeholder: '1 2 3', class: 'mt-1 block w-full rounded-md border border-gray-300', value: params[:vector1] %>
       </div>
       <div>
-        <%= f.label :vector2, 'Вектор 2 (компоненты через запятую)', class: 'block text-sm font-medium text-gray-700' %>
-        <%= f.text_field :vector2, placeholder: '4,5,6', class: 'mt-1 block w-full rounded-md border border-gray-300', value: params[:vector2] %>
+        <%= f.label :vector2, 'Вектор 2', class: 'block text-sm font-medium text-gray-700' %>
+        <%= f.text_field :vector2, placeholder: '4 5 6', class: 'mt-1 block w-full rounded-md border border-gray-300', value: params[:vector2] %>
       </div>
     </div>
 
