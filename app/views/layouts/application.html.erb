@@ -89,7 +89,7 @@
       <!-- Пользователь уже залогинен -->
       <h2 class="text-xl font-bold mb-4">Здравствуйте, <%= current_user.email %>!</h2>
       <p class="mb-4">Вы уже в системе. Хотите выйти?</p>
-      <%= button_to "Выйти", destroy_user_session_path, method: :delete,
+      <%= button_to "Выйти", logout_path, method: :delete,
                     class: "px-4 py-2 bg-red-600 text-white rounded-md" %>
     <% else %>
       <!-- Форма регистрации + таб авторизации -->
@@ -105,7 +105,7 @@
       </div>
 
       <div id="form-register">
-        <%= form_with url: registration_path, local: true, data: { turbo: false } do |f| %>
+        <%= form_with url: registration_path, local: true, data: {turbo: false} do |f| %>
           <div class="mb-4">
             <%= f.label :email, "Email", class: "block text-sm font-medium" %>
             <%= f.email_field :email, class: "mt-1 block w-full border-gray-300 rounded-md border border-gray-300" %>
@@ -126,7 +126,7 @@
       </div>
 
       <div id="form-login" class="hidden">
-        <%= form_with url: login_path, local: true do |f| %>
+        <%= form_with url: login_path, local: true, data: { turbo: false } do |f| %>
           <div class="mb-4">
             <%= f.label :email, "Email", class: "block text-sm font-medium" %>
             <%= f.email_field :email, class: "mt-1 block w-full border-gray-300 rounded-md border border-gray-300" %>
@@ -152,45 +152,54 @@
 
 <!-- Скрипт открытия/закрытия панели -->
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
+    function initSidebar() {
         const tabReg    = document.getElementById("tab-register");
         const tabLog    = document.getElementById("tab-login");
         const formReg   = document.getElementById("form-register");
         const formLog   = document.getElementById("form-login");
 
-        tabReg.addEventListener("click", () => {
-            formReg.classList.remove("hidden");
-            formLog.classList.add("hidden");
-            tabReg.classList.replace("border-transparent", "border-blue-600");
-            tabLog.classList.replace("border-blue-600", "border-transparent");
-        });
+        if (tabReg && tabLog && formReg && formLog) {
+            tabReg.addEventListener("click", () => {
+                formReg.classList.remove("hidden");
+                formLog.classList.add("hidden");
+                tabReg.classList.replace("border-transparent", "border-blue-600");
+                tabLog.classList.replace("border-blue-600", "border-transparent");
+            });
 
-        tabLog.addEventListener("click", () => {
-            formLog.classList.remove("hidden");
-            formReg.classList.add("hidden");
-            tabLog.classList.replace("border-transparent", "border-blue-600");
-            tabReg.classList.replace("border-blue-600", "border-transparent");
-        });
+            tabLog.addEventListener("click", () => {
+                formLog.classList.remove("hidden");
+                formReg.classList.add("hidden");
+                tabLog.classList.replace("border-transparent", "border-blue-600");
+                tabReg.classList.replace("border-blue-600", "border-transparent");
+            });
+        }
 
-        // открытие/закрытие боковой панели
-        const toggle = document.getElementById("menu-toggle");
-        const sidebar  = document.getElementById("sidebar");
-        const backdrop = document.getElementById("sidebar-backdrop");
+        const toggle   = document.getElementById("menu-toggle");
         const closeBtn = document.getElementById("sidebar-close");
-        const open = () => {
-            sidebar.classList.remove("translate-x-full");
-            backdrop.classList.remove("opacity-0", "pointer-events-none");
-            backdrop.classList.add("opacity-100");
-        };
-        const close = () => {
-            sidebar.classList.add("translate-x-full");
-            backdrop.classList.remove("opacity-100");
-            backdrop.classList.add("opacity-0", "pointer-events-none");
-        };
-        toggle.addEventListener("click", open);
-        closeBtn.addEventListener("click", close);
-        backdrop.addEventListener("click", close);
-    });
+        const backdrop = document.getElementById("sidebar-backdrop");
+        const sidebar  = document.getElementById("sidebar");
+
+        if (toggle && closeBtn && backdrop && sidebar) {
+            const open = () => {
+                sidebar.classList.remove("translate-x-full");
+                backdrop.classList.remove("opacity-0", "pointer-events-none");
+                backdrop.classList.add("opacity-100");
+            };
+            const close = () => {
+                sidebar.classList.add("translate-x-full");
+                backdrop.classList.remove("opacity-100");
+                backdrop.classList.add("opacity-0", "pointer-events-none");
+            };
+
+            toggle.addEventListener("click", open);
+            closeBtn.addEventListener("click", close);
+            backdrop.addEventListener("click", close);
+        }
+    }
+
+
+    document.addEventListener("DOMContentLoaded", initSidebar);
+    document.addEventListener("turbo:load",       initSidebar);
 </script>
 
 </body>
