@@ -41,6 +41,20 @@
   </div>
 </nav>
 
+<!-- flash-сообщения -->
+<div class="container mx-auto px-4 mt-4">
+  <% if flash[:notice] %>
+    <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-2 rounded mb-4">
+      <%= flash[:notice] %>
+    </div>
+  <% end %>
+  <% if flash[:alert] %>
+    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-2 rounded mb-4">
+      <%= flash[:alert] %>
+    </div>
+  <% end %>
+</div>
+
 
 <!-- Основное содержимое: калькулятор по центру -->
 <main>
@@ -91,10 +105,14 @@
       </div>
 
       <div id="form-register">
-        <%= form_with url: registration_path, local: true do |f| %>
+        <%= form_with url: registration_path, local: true, data: { turbo: false } do |f| %>
           <div class="mb-4">
             <%= f.label :email, "Email", class: "block text-sm font-medium" %>
             <%= f.email_field :email, class: "mt-1 block w-full border-gray-300 rounded-md" %>
+          </div>
+          <div class="mb-4">
+            <%= f.label :name, "Логин", class: "block text-sm font-medium" %>
+            <%= f.text_field :name, class: "mt-1 block w-full border-gray-300 rounded-md" %>
           </div>
           <div class="mb-4">
             <%= f.label :password, "Пароль", class: "block text-sm font-medium" %>
