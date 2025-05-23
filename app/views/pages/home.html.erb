@@ -74,21 +74,34 @@
   <% end %>
 
   <script>
-      document.addEventListener('DOMContentLoaded', () => {
-          const op = document.querySelector('select[name="operation"]')
-          const mf = document.getElementById('matrix-fields')
-          const vf = document.getElementById('vector-fields')
+      // общая инициализация переключения полей
+      function initCalculatorFields() {
+          const op = document.querySelector('select[name="operation"]');
+          const mf = document.getElementById('matrix-fields');
+          const vf = document.getElementById('vector-fields');
+          if (!op || !mf || !vf) return;
 
-          op.addEventListener('change', () => {
+          function toggle() {
               if (op.value === 'determinant') {
-                  mf.classList.remove('hidden')
-                  vf.classList.add('hidden')
+                  mf.classList.remove('hidden');
+                  vf.classList.add('hidden');
               } else {
-                  vf.classList.remove('hidden')
-                  mf.classList.add('hidden')
+                  mf.classList.add('hidden');
+                  vf.classList.remove('hidden');
               }
-          })
-      })
+          }
+
+          // Сначала настроим состояние сразу
+          toggle();
+          // Переключаем при любом изменении селекта
+          op.removeEventListener('change', toggle);
+          op.addEventListener('change', toggle);
+      }
+
+      // Срабатывает при полном перезагрузке страницы
+      document.addEventListener('DOMContentLoaded', initCalculatorFields);
+      // И при каждом "плавном" переходе Turbo (Rails 7+ с Hotwire)
+      document.addEventListener('turbo:load',       initCalculatorFields);
   </script>
 </div>
 </div>

@@ -1,8 +1,8 @@
-<!-- Шаблон-заглушка -->
+<% require 'json' %>
 <div class="max-w-3xl w-full mx-auto bg-white shadow-md rounded-lg p-6">
   <h1 class="text-2xl font-bold mb-4">История вычислений</h1>
 
-  <% if false #@operations.any? %>
+  <% if  @operation.any? %>
     <div class="overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-50">
@@ -14,12 +14,25 @@
         </tr>
         </thead>
         <tbody class="divide-y divide-gray-100">
-        <% @operations.each do |op| %>
+        <% @operation.each do |op| %>
           <tr>
-            <td class="px-4 py-2 text-sm text-gray-600"><%= op.created_at.strftime("%d.%m.%Y %H:%M") %></td>
+            <td class="px-4 py-2 text-sm text-gray-600"><%= op.created_at %></td>
             <td class="px-4 py-2 text-sm text-gray-600"><%= op.operation_type.humanize %></td>
-            <td class="px-4 py-2 text-sm text-gray-600"><%= op.input_data %></td>
-            <td class="px-4 py-2 text-sm text-gray-600 font-medium"><%= op.result_data %></td>
+            <% if op.dot_product? || op.cross_product? %>
+              <% inputs = op.result_data["inputs"] %>
+              <td class="px-4 py-2 text-sm text-gray-600">
+                <span>v₁: (<%= inputs["v1"].join(', ') %>)</span><br>
+                <span>v₂: (<%= inputs["v2"].join(', ') %>)</span>
+              </td>
+            <% else %>
+              <% matrix = op.result_data["inputs"] %>
+              <td class="px-4 py-2 text-sm text-gray-600">
+                <% matrix.each do |row|%>
+                  |<%= row.join(', ') %>|<br>
+                <% end %>
+              </td>
+            <% end %>
+            <td class="px-4 py-2 text-sm text-gray-600 font-medium"><%= op.result_data["value"] %></td>
           </tr>
         <% end %>
         </tbody>

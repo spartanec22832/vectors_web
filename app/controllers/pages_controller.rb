@@ -4,6 +4,7 @@ class PagesController < ApplicationController
 
   def history
     if user_signed_in?
+      @operation = current_user.operations.order("created_at DESC")
       render "pages/history"
     else
       flash.now[:alert] = "Вы не авторизованы, история недоступна"

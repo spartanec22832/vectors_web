@@ -1,4 +1,4 @@
-# app/services/vector_calculator_service.rb
+
 class VectorCalculatorService
   def initialize(user, params)
     @user     = user
@@ -15,7 +15,7 @@ class VectorCalculatorService
         user:           @user,
         matrix:         mat,
         operation_type: :determinant,
-        result_data:    { value: result }
+        result_data:    { value: result, inputs: parsed_matrix }
       )
       AuditLog.create!(
         user:           @user,
