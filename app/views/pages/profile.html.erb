@@ -15,8 +15,33 @@
     </dl>
   </section>
 
-  <section>
-    <h2 class="text-xl font-semibold mb-2">Безопасность</h2>
-    <%= link_to "Сменить пароль", password_path, class: "inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition" %>
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Сменить пароль</h2>
+    <%= form_with url: password_update_path, method: :patch, local: true, data: { turbo: false } do |f| %>
+      <div class="space-y-4">
+        <div>
+          <%= f.label :current_password, "Старый пароль", class: "block text-sm font-medium" %>
+          <%= f.password_field :current_password,
+                               class: "mt-1 block max-w-md w-full border-gray-300 rounded-md border border-gray-300",
+                               required: true %>
+        </div>
+        <div>
+          <%= f.label :new_password, "Новый пароль", class: "block text-sm font-medium" %>
+          <%= f.password_field :new_password,
+                               class: "mt-1 block max-w-md w-full border-gray-300 rounded-md border border-gray-300",
+                               required: true %>
+        </div>
+        <div>
+          <%= f.label :new_password_confirmation, "Подтвердите новый пароль", class: "block text-sm font-medium" %>
+          <%= f.password_field :new_password_confirmation,
+                               class: "mt-1 block max-w-md w-full border-gray-300 rounded-md border border-gray-300",
+                               required: true %>
+        </div>
+      </div>
+      <div class="mt-6">
+        <%= f.submit "Сохранить новый пароль",
+                     class: "inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition" %>
+      </div>
+    <% end %>
   </section>
 </div>

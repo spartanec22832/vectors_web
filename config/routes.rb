@@ -19,9 +19,9 @@ Rails.application.routes.draw do
   post "login",        to: "sessions#create",        as: :login
   delete "logout",      to: "sessions#delete",       as: :logout
 
-  # роутинга для пароля пока нет, сложно
-  # заглушка для фронта
-  post "password/reset",    to: "password#create",      as: :password
+
+  patch "password/update",    to: "passwords#update",      as: :password_update
+  patch "password/reset",    to: "passwords#reset",      as: :password_reset
 
 
   get "history", to: "pages#history", as: :history_page

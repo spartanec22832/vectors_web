@@ -140,12 +140,11 @@
             <%= f.password_field :password, class: "mt-1 block w-full border-gray-300 rounded-md border border-gray-300" %>
           </div>
 
-          <!-- Сюда вставляем новый код -->
           <div class="flex items-center justify-between">
             <%= f.submit "Войти",
                          class: "px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700" %>
 
-            <%= link_to "Забыли пароль?", password_path,
+            <%= link_to "Забыли пароль?", password_reset_path,
                         class: "text-sm text-blue-600 hover:underline" %>
           </div>
         <% end %>
