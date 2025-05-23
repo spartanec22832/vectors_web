@@ -1,7 +1,10 @@
+# app/controllers/vectors_controller.rb
 class VectorsController < ApplicationController
   def calculate
+    service = VectorCalculatorService.new(current_user, params)
+
     begin
-      @result = VectorCalculatorService.new(params).call
+      @result = service.call
     rescue ArgumentError => e
       flash.now[:alert] = e.message
       @result = nil

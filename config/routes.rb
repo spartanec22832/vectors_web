@@ -28,5 +28,5 @@ Rails.application.routes.draw do
   get "support", to: "pages#support", as: :support_page
   get "profile", to: "pages#profile", as: :profile_page
 
-
+  post '/calculate', to: 'vectors#calculate', as: :calculate
 end

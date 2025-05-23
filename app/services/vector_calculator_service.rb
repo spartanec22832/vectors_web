@@ -1,25 +1,60 @@
 # app/services/vector_calculator_service.rb
 class VectorCalculatorService
-  def initialize(params)
-    @params = params
+  def initialize(user, params)
+    @user     = user
+    @params    = params
     @operation = params[:operation].to_s
   end
 
-  # Основной метод: вызывает нужный метод из гема Vectors
-  # и возвращает результат (число, массив и т.д.)
   def call
     case @operation
     when "determinant"
-      Vectors.determinant(parsed_matrix)
-
+      mat = @user.matrices.create!(matrix_data: parsed_matrix)
+      result = Vectors.determinant(parsed_matrix)
+      Operation.create!(
+        user:           @user,
+        matrix:         mat,
+        operation_type: :determinant,
+        result_data:    { value: result }
+      )
+      AuditLog.create!(
+        user:           @user,
+        event_type:     :operation,
+        payload:        { value: result, inputs: mat }
+      )
+      result
     when "dot"
-      Vectors.scalar_prod(parsed_vector(:vector1),
-                          parsed_vector(:vector2))
-
+      v1, v2 = parsed_vector(:vector1), parsed_vector(:vector2)
+      vec = @user.vectors.create!(coords: { vector1: v1, vector2: v2 })
+      result = Vectors.scalar_prod(v1, v2)
+      Operation.create!(
+        user:           @user,
+        vector:         vec,
+        operation_type: :dot_product,
+        result_data:    { value: result, inputs: { v1: v1, v2: v2 } }
+      )
+      AuditLog.create!(
+        user:           @user,
+        event_type:     :operation,
+        payload:        { value: result, inputs: { v1: v1, v2: v2 } }
+      )
+      result
     when "cross"
-      Vectors.cross_prod(parsed_vector(:vector1),
-                         parsed_vector(:vector2))
-
+      v1, v2 = parsed_vector(:vector1), parsed_vector(:vector2)
+      vec = @user.vectors.create!(coords: { vector1: v1, vector2: v2 })
+      result = Vectors.cross_prod(v1, v2)
+      Operation.create!(
+        user:           @user,
+        vector:         vec,
+        operation_type: :cross_product,
+        result_data:    { value: result, inputs: { v1: v1, v2: v2 } }
+      )
+      AuditLog.create!(
+        user:           @user,
+        event_type:     :operation,
+        payload:        { value: result, inputs: { v1: v1, v2: v2 } }
+      )
+      result
     else
       raise ArgumentError, "Неизвестная операция: #{@operation}"
     end
@@ -29,13 +64,11 @@ class VectorCalculatorService
 
   def parsed_vector(key)
     str = @params[key].to_s.strip
-    raise ArgumentError, "Поле ввода не должно быть пустым" if str.empty?
+    raise ArgumentError, "Поле «#{key}» не должно быть пустым" if str.empty?
 
-    # Разбиваем по любому сочетанию запятых и пробелов:
     parts = str.split(/[,\s]+/)
-
     parts.each do |cell|
-      unless numeric_string?(cell)
+      unless /\A[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?\z/ === cell
         raise ArgumentError, "Неправильный элемент «#{cell}»: ожидается число"
       end
     end
@@ -43,21 +76,18 @@ class VectorCalculatorService
     parts.map(&:to_f)
   end
 
-
-  def numeric_string?(s)
-    /\A[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?\z/ === s
-  end
-
   def parsed_matrix
-    matrix = @params[:matrix].to_s.strip
+    lines = @params[:matrix].to_s.strip.lines
+    raise ArgumentError, "Поле «matrix» не должно быть пустым" if lines.empty?
 
-    matrix.lines.map do |row|
-      row.split.each do |cell|
-        unless numeric_string?(cell)
-          raise ArgumentError, "Неправильный элемент «#{cell}». ожидается число"
+    lines.map do |row|
+      cells = row.split
+      cells.each do |cell|
+        unless /\A[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?\z/ === cell
+          raise ArgumentError, "Неправильный элемент «#{cell}»: ожидается число"
         end
       end
-      row.split.map(&:to_f)
+      cells.map(&:to_f)
     end
   end
 end
