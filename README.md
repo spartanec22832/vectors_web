@@ -33,6 +33,8 @@ Run the project with:
 foreman start -f Procfile.dev
 ```
 
+[Our site](https://vectors-web.onrender.com) is deployed on [render.com](https://render.com)
+
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Visit-blue?logo=github)](https://github.com/spartanec22832/vectors_web)
 
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://mit-license.org/)
