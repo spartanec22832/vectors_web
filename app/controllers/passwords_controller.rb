@@ -40,10 +40,6 @@ class PasswordsController < ApplicationController
       if user.update(password: params[:password],
                      password_confirmation: params[:password_confirmation])
         user.clear_reset_password_token!
-        AuditLog.create!(
-          user_id: current_user.id,
-          event_type: :data_change
-        )
         redirect_to root_path, notice: "Пароль успешно сброшен"
       else
         flash.now[:alert] = "Ошибка сброса пароля"
