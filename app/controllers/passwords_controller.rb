@@ -40,6 +40,10 @@ class PasswordsController < ApplicationController
       if user.update(password: params[:password],
                      password_confirmation: params[:password_confirmation])
         user.clear_reset_password_token!
+        AuditLog.create!(
+          user_id: current_user.id,
+          event_type: :data_change
+        )
         redirect_to root_path, notice: "Пароль успешно сброшен"
       else
         flash.now[:alert] = "Ошибка сброса пароля"
@@ -52,14 +56,21 @@ class PasswordsController < ApplicationController
         flash.now[:alert] = "Старый пароль неверен"
         return render "pages/profile"
       end
-
-      if current_user.update(password:               params[:new_password],
-                             password_confirmation:  params[:new_password_confirmation])
-        redirect_to profile_page_path, notice: "Пароль успешно изменён"
-      else
+    if params[:new_password] == params[:current_password]
+      flash.now[:alert] = "Новый пароль должен отличаться от старого"
+      return render "pages/profile"
+    end
+    if current_user.update(password:               params[:new_password],
+                           password_confirmation:  params[:new_password_confirmation])
+      AuditLog.create!(
+        user_id: current_user.id,
+        event_type: :data_change
+      )
+      redirect_to profile_page_path, notice: "Пароль успешно изменён"
+    else
         flash.now[:alert] = current_user.errors.full_messages.to_sentence
         render "pages/profile"
-      end
+    end
     end
   end
 end
