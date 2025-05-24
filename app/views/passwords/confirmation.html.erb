@@ -1,0 +1,15 @@
+<div class="max-w-md mx-auto mt-10 bg-white p-6 rounded shadow">
+  <h1 class="text-2xl mb-4">Сброс пароля</h1>
+  <%= form_with url: password_update_path, method: :patch, local: true do |f| %>
+    <%= hidden_field_tag :token, @token %>
+    <div class="mb-4">
+      <%= f.label :password, "Новый пароль" %>
+      <%= f.password_field :password, class: "block w-full border-gray-300 rounded-md border border-gray-300" %>
+    </div>
+    <div class="mb-4">
+      <%= f.label :password_confirmation, "Подтвердите пароль" %>
+      <%= f.password_field :password_confirmation, class: "block w-full border-gray-300 rounded-md border border-gray-300" %>
+    </div>
+    <%= f.submit "Сменить пароль", class: "px-4 py-2 bg-blue-600 text-white rounded" %>
+  <% end %>
+</div>

@@ -20,13 +20,15 @@ Rails.application.routes.draw do
   delete "logout",      to: "sessions#delete",       as: :logout
 
 
+  get "password/update", to: "passwords#update",    as: :password_update_new
   patch "password/update",    to: "passwords#update",      as: :password_update
-  patch "password/reset",    to: "passwords#reset",      as: :password_reset
+  get "password/reset", to: "passwords#reset",      as: :password_reset_new
+  post "password/reset",    to: "passwords#reset",      as: :password_reset
 
 
   get "history", to: "pages#history", as: :history_page
   get "support", to: "pages#support", as: :support_page
   get "profile", to: "pages#profile", as: :profile_page
 
-  post '/calculate', to: 'vectors#calculate', as: :calculate
+  post "/calculate", to: "vectors#calculate", as: :calculate
 end
