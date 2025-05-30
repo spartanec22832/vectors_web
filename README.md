@@ -33,6 +33,11 @@ Run the project with:
 foreman start -f Procfile.dev
 ```
 
+Before running tests do:
+```bash
+rails db:test:prepare  
+```
+
 Run tests:
 ```bash
 rails test test/models
