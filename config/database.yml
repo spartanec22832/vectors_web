@@ -25,6 +25,8 @@ development:
   database: vectors_app_development
   username: <%= ENV["VECTORS_APP_DATABASE_USERNAME"] %>
   password: <%= ENV["VECTORS_APP_DATABASE_PASSWORD"] %>
+  host: localhost
+  port: 5432
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
@@ -61,6 +63,8 @@ test:
   database: vectors_app_test
   username: <%= ENV["VECTORS_APP_DATABASE_USERNAME"] %>
   password: <%= ENV["VECTORS_APP_DATABASE_PASSWORD"] %>
+  host: localhost
+  port: 5432
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -85,7 +89,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    url: <%= ENV.fetch("DATABASE_URL") %>
+#    url: <%#= ENV.fetch("DATABASE_URL") %>
   cache:
     <<: *primary_production
     database: vectors_app_production_cache
