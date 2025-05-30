@@ -33,6 +33,12 @@ Run the project with:
 foreman start -f Procfile.dev
 ```
 
+Run tests:
+```bash
+rails test test/models
+rails test test/controllers
+rails test test/services
+```
 [Our site](https://vectors-web.onrender.com) is deployed on [render.com](https://render.com)
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Visit-blue?logo=github)](https://github.com/spartanec22832/vectors_web)
