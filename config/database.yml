@@ -85,7 +85,6 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    url: <%= ENV.fetch("DATABASE_URL") %>
   cache:
     <<: *primary_production
     database: vectors_app_production_cache
