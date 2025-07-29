@@ -68,6 +68,6 @@ end
 
 gem "Vectors", "~> 0.2.0"
 
-gem "foreman", "~> 0.88.1"
+gem "foreman", "~> 0.90.0"
 
 
